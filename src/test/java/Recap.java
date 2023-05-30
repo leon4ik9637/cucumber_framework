@@ -13,7 +13,7 @@ public class Recap {
     dependencies - libraries - plugins -> UI - API - DB
     Security, Performance, more...
 
-    TDD - TestNG based framework
+    1. TDD - TestNG based framework
         - Maven project
         - Get dependencies in pom.xml
             - WebDriverManager, TestNG, Selenium
@@ -86,4 +86,108 @@ public class Recap {
     tool like Cucumber-SpecFlow, etc
 
      */
+
+    /*
+    Automation framework:
+    - Automation framework is a set of rules,
+    regulations, and design patterns that we
+    implement to build a project structure
+    - It is used to increase code reusability,
+    provide easy maintenance, and allows multiple
+    users to work on same project
+    - It is a constructive blend of various
+    guidelines, coding standards, concepts,
+    processes, practices, project hierarchies,
+    reporting mechanism, test data injections etc.
+    to pillar automation testing
+
+    WHY DO WE NEED AUTOMATION FRAMEWORK?
+    - Reusability
+    - readability
+    - efficiency
+    - maintenance - organize
+    - reporting
+    - less time and effort - less cost for the company
+    - decreasing human errors
+
+    Different Automation Frameworks
+    - Data-driven Testing Framework (DDD)
+    - Keyword-driven Testing Framework
+    - Hybrid Frameworks
+    - Test Driven Development Framework
+    - Behavior Driven Development Framework
+
+    TDD Framework
+        - We create tests first
+        - Initially it fails
+        - Few days later, dev push their code
+        - Run scripts again, make sure it is passing
+
+    @Test
+    public void validateLogin(){
+        driver.get(url);
+        driver.findElement(By.id("username")).sendKeys(validU);
+        driver.findElement(By.id("password")).sendKeys(validP);
+        driver.findElement(By.id("loginBtn")).click();
+    }
+
+    Code-freeze in last 2 days
+    Only if testers come up with issues then devs can only
+    push the code to fix those issues, no new functions in the
+    code to be tested within the last 2 days of the sprint
+
+    Test-Driven and Behavior-Driven are the most common
+    frameworks used with Agile methodology
+
+    Cucumber_framework
+        1. Create feature file and scenarios
+        2. Generate step implementation (source
+        code) - POM, Driver, Utils
+        3. Runner clas to execute your scenarios
+
+    TestNG_framework
+        1. Create test cases - JIRA
+        2. Automate scripts - @Test - POM, Driver,
+        Utils
+        3. Add tests to suites - xml files (Smoke,
+        Regression)
+
+    Background keyword groups the common steps and increases the
+    code reusability in the feature files
+    - Can be only used in the BeforeSteps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     */
+
 }
