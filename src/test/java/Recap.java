@@ -156,6 +156,27 @@ public class Recap {
     code reusability in the feature files
     - Can be only used in the BeforeSteps
 
+    Scenario Outline:
+    - It is similar to @DataProvider in TestNG
+    - We use it when we need to run the same script with
+    different data sets
+    - It should be defined with "Scenario Outline"
+    - It must be followed with examples
+
+    Reports:
+    - surefire reports
+    - index.html
+
+    Cucumber framework
+    - feature files
+    - steps (utils, pages)
+    - Runner
+        - features = "featuresPath",
+        - glue = "steps",
+        - tags = "tagToBeExecuted",
+        - monochrome = "true/false",
+        - dryRun = true/false (to see if missing any steps -> put true)
+        - plugin = {"", ""}
 
 
 
