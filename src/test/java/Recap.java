@@ -179,6 +179,87 @@ public class Recap {
         - plugin = {"", ""}
 
 
+    Recap:
+    1. Test-Driven Development Framework
+        a. programming language - Java
+        b. build tool - Maven (Gradle, ANT)
+        c. dependencies - libraries - plugins
+
+        TestNG based - @Test
+        1. Write script before development starts
+        2. Execute and get failures
+        3. Development process
+        4. Execute again and give feedbacks to
+        what has been developed
+        5. Make sure all scripts pass and then
+        mark user stories done
+
+    Requirements: Figma (visual requirements),
+    Confluence: Written documents - requirements
+    Confluence is the wikipedia of the company
+    Azure DevOps = Wiki + Pipelines + Version
+    control + Test case management system
+
+        ***QUESTION: Where is the execution point?
+        xml files are the execution points
+        We define the suite with classes and
+        methods to be executed in xml files
+
+        Later, we integrate our xml files with
+        Maven using profiles in the pom.xml using
+        surefire plugin. And this helps us to run
+        different profiles with Maven commands,
+        later to be integrated with Jenkins and
+        pipelines.
+
+        mvn test -PSuiteName
+
+    2. Behavior-Driven Development Framework
+        a. programming language - Java
+        b. build tool - Maven (Gradle, ANT)
+        c. dependencies - libraries - plugins
+
+        Behaviors - Gherkin steps
+        Given   -> pre-condition
+        When    -> actions
+        Then    -> assertions - validations
+
+        ***QUESTION: Where is the execution point?
+        Runner is the start point of execution
+        with Cucumber-BDD framework
+
+            features = "src/test/resources/features",
+            glue = "steps",
+            tags = "@Google"
+            plugin = "html:target/cucumber-reports"
+
+        1. It reads the given tag and navigates to
+        feature
+        2. It finds all the scenarios which have that
+        given tag and starts executing one by one
+        3.When a scenario is found with the given tag, it
+        immediately finds the step implementation for it
+        with glue
+        4. After executing all, it creates given reports
+        with plugin
+
+        Later, we integrate our Runner class with Maven
+        in the pom.xml using surefire plugin. And this
+        helps us to run different Tags(suites) with Maven
+        commands, later to be integrated with Jenkins and
+        pipelines.
+
+        Version Control + Maven + Jenkins -> Automatically
+        trigger Smoke, Regression and other suites in pipelines
+
+        BDD REPORTS
+
+        1. CUCUMBER REPORTS:
+        These reports are generated with Cucumber APIs
+
+        2. SUREFIRE REPORTS:
+        These reports are generated with Maven
+        mvn test -Dcucumber.options="--tags @Smoke"
 
 
 

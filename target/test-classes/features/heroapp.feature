@@ -1,4 +1,4 @@
-@Regression @HeroApp
+@Regression
 Feature: HeroApp Functionalities
 
   Background:
@@ -13,7 +13,6 @@ Feature: HeroApp Functionalities
     When user clicks on "Delete" button
     Then user should not see "Delete" button
 
-    @temp
   Scenario: Validate context menu page
     When user clicks on "Context Menu" link
     Then user should see "Context Menu" heading
