@@ -1,4 +1,5 @@
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/utils/Waiter.java
+/Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/pages/EtsyHomePage.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/utils/ActionsUtil.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/runners/Runner.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/steps/GoogleSteps.java
@@ -10,7 +11,10 @@
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/utils/AlertHandler.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/utils/Driver.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/pages/WikipediaPage.java
+/Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/steps/EtsySteps.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/utils/ConfigReader.java
+/Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/steps/RandomSteps.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/steps/HeroAppSteps.java
+/Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/Cucumber_Recap_Plus_Data_Tables.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/steps/BaseSteps.java
 /Users/leon.kuchman/IdeaProjects/cucumber_framework/src/test/java/utils/DropdownHandler.java

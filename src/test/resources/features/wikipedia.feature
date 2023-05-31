@@ -22,5 +22,11 @@ Feature: Wiki Search Functionality
       #| Robert downey jr  |
       #| Piero Manzoni     |
 
+  Scenario: Validate Wikipedia main languages
+    Given user navigates to "https://www.wikipedia.org/"
+    Then user should see below languages around the logo
+    |English|Русский|日本語|Deutsch|Español|Français|Italiano|中文|
+
+
 
 

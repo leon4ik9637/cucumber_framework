@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runners.Runner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.473 s - in runners.Runner
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 83.668 s <<< FAILURE! - in runners.Runner
+Validate Wiki search(Wiki Search Functionality)  Time elapsed: 5.184 s  <<< FAILURE!
+java.lang.AssertionError
+
+Validate Wiki search(Wiki Search Functionality)  Time elapsed: 4.512 s  <<< FAILURE!
+java.lang.AssertionError
+
